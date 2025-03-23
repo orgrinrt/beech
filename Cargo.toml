@@ -1,0 +1,55 @@
+[package]
+name = "beech"
+authors = ["orgrinrt", "Hiisi Digital"]
+version = "0.0.1"
+edition = "2021"
+rust-version = "1.60.0"
+description = """
+TODO
+"""
+license-file = "LICENSE"
+readme = "README.md"
+keywords = [] # TODO 
+categories = [] # TODO
+documentation = "https://docs.rs/beech"
+homepage = "https://github.com/orgrinrt/beech"
+repository = "https://github.com/orgrinrt/beech"
+
+[workspace]
+members = []
+
+#[lib]
+#proc-macro = true
+
+[workspace.dependencies]
+#proc-macro2 = { version = "^1.0" }
+#quote = { version = "^1.0", features = ["proc-macro"] }
+#syn = { version = "^2.0.0", features = ["full"] }
+
+[dependencies]
+#proc-macro2.workspace = true
+#quote.workspace = true
+#syn.workspace = true
+tempfile = { version = "^3.0.0", optional = true }
+chrono = "0.4"
+regex = "1.11.1"
+
+#[dev-dependencies]
+#tempfile = { version = "^3.0.0", optional = true } # TODO: which would be better here? dev-deps can't be optional
+
+[features]
+default = []
+
+[clippy]
+default-features = true
+extra-plugins = [
+    "clippy::pedantic",
+    "clippy::cargo",
+    "+clippy::nursery",
+    "+clippy::style",
+    "+clippy::complexity",
+    "+clippy::perf",
+    "+clippy::correctness",
+    "+clippy::suspicious",
+    "+clippy::deprecated"
+]
