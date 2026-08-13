@@ -14,24 +14,14 @@ beech
 
 
 
-> Write cleaner, more organized procedural macros with less boilerplate.
+> Write procedural macros with less boilerplate.
 
 
 </div>
 
-## Usage
-
-## Example
-
-```rust
-
-```
-
-### In practice
-
-## The Problem
-
-## The Benefits
+beech is an early work in progress. The crate is not published and contains no functionality yet;
+this repository currently holds the project scaffolding (license, CI configuration, manifest).
+Usage documentation and examples will be added once there is an API to document.
 
 ## Support
 
@@ -41,6 +31,6 @@ Whether you use this project, have learned something from it, or just like it, p
 
 ## License
 
-> You can check out the full license [here](https://github.com/orgrinrt/beech/blob/master/LICENSE)
+> You can check out the full license [here](https://github.com/orgrinrt/beech/blob/main/LICENSE)
 
 This project is licensed under the terms of the **MIT** license.
