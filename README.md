@@ -13,7 +13,7 @@ beech
 </div>
 
 beech is an early work in progress. The crate is not published and contains no functionality yet;
-this repository currently holds the project scaffolding (license, CI configuration, manifest).
+this repository currently holds the project scaffolding (license, manifest, and tooling configuration).
 Usage documentation and examples will be added once there is an API to document.
 
 ## Support
