@@ -4,10 +4,8 @@ authors = ["orgrinrt", "Hiisi Digital"]
 version = "0.0.1"
 edition = "2021"
 rust-version = "1.60.0"
-description = """
-TODO
-"""
-license-file = "LICENSE"
+description = "Write procedural macros with less boilerplate."
+license = "MPL-2.0"
 readme = "README.md"
 keywords = [] # TODO 
 categories = [] # TODO
